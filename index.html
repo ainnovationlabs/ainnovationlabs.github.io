@@ -1,9 +1,148 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <title>Example</title>
-    </head>
-    <body>
-        <p>This is an example of a simple HTML page with one paragraph.</p>
-    </body>
+<head>
+<meta charset="UTF-8">
+<title>Version One</title>
+
+<!--php contact form info--> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+<link rel="stylesheet" href="form-plugin/form.css" >
+<script src="form-plugin/form.js"></script> 
+
+<!-- main stylesheet -->
+<link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header id="header">
+  <div class="logo"><a href="index.html"><img src="img/logo.png" width="50px" alt="Logo cube"></a></div>
+  <div class="navItems">
+    <ul>
+<!--      <li><a href="#aboutUs">About</a></li>--> 
+      <li><a href="#aboutUs">Product</a></li>
+      <li><a href="#contactSection">Contact</a></li>
+    </ul>
+  </div>
+</header>
+<div class="hero">
+  <div class="leftColHero">
+    <h1>An Untimate Solution With AI</h1>
+    <p>We use AI in a broader array of applications, bringing cutting-edge innovation to more fields than ever before.</p>
+   <a href="#contactSection"> <input type="button" value="Contact Us" class="contactBtn"></a>
+  </div>
+  <div class="heroPic"><img src="img/hero.png" width="100%" alt="hero"></div>
+</div>
+<div class="main">
+  <div class="aboutUs" id="aboutUs"> <img src="img/logo.png" width="50px" alt="Logo cube">
+    <h2>Go Above and Beyond with AI</h2>
+    <p>AInnovation is using deep neural nets and advanced processing techniques to port these once costly algorithms into light-weight processes that can be run on simple devices. </p>
+  </div>
+  <div class="features" id="features"> 
+    <!--four pics section-->
+    <div class="featureWrapper">
+      <div class="textCol-4pic">
+        <h3>Realtime Human Tracking and <br>
+          Pose Estimation</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum dolorum molestiae ex reiciendis esse nesciunt officia, rerum et modi adipisci.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum dolorum molestiae ex reiciendis esse nesciunt officia, rerum et modi adipisci.</p>
+      </div>
+      <div class="picCol-4pic"> <img src="img/cube.png" alt="feature"> <img src="img/cube.png" alt="feature"> <img src="img/cube.png" alt="feature"> <img src="img/cube.png" alt="feature"> </div>
+    </div>
+    
+    <!--two vertical phone pic-->
+    <div class="featureWrapper">
+      <h3>Applications on Telemedicine <br>
+        and Rehab</h3>
+      <div class="textCol-left">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum dolorum molestiae ex reiciendis esse nesciunt officia, rerum et modi adipisci.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum dolorum molestiae ex reiciendis esse nesciunt officia, rerum et modi adipisci.</p>
+      </div>
+      <div class="picCol-right"> <img class="ver1" src="img/ver.png" alt="feature"> <img class="ver2" src="img/ver.png" alt="feature"> </div>
+    </div>
+    
+    <!--two hori phone pic-->
+    <div class="featureWrapper">
+      <h3>Applications on Telemedicine <br>
+        and Rehab</h3>
+      <div class="picCol-left"> <img class="hori hori1" src="img/hori.png" alt="feature"> <img class="hori hori2" src="img/hori.png" alt="feature"> </div>
+      <div class="textCol-right">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum dolorum molestiae ex reiciendis esse nesciunt officia, rerum et modi adipisci.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum dolorum molestiae ex reiciendis esse nesciunt officia, rerum et modi adipisci.</p>
+      </div>
+    </div>
+    
+    <!--four pic section-->
+    <div class="featureWrapper">
+      <div class="textCol-4pic">
+        <h3>Applications for Image and <br>
+          Video Processing</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum dolorum molestiae ex reiciendis esse nesciunt officia, rerum et modi adipisci.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum dolorum molestiae ex reiciendis esse nesciunt officia, rerum et modi adipisci.</p>
+      </div>
+      <div class="picCol-4pic"> <img src="img/cube.png" alt="feature"> <img src="img/cube.png" alt="feature"> <img src="img/cube.png" alt="feature"> <img src="img/cube.png" alt="feature"> </div>
+    </div>
+  </div>
+  <div class="contactSection" id="contactSection">
+    <div class="contactHead">
+      <h2>Contact Us</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis maiores, ut nam ullam aliquam laboriosam a eos recusandae quam quod.</p>
+    </div>
+    <div class="contactForm"> 
+      <!-- Contact form plugin --> 
+      
+      <!--
+Author: Prasanth Janardanan
+Date: 2017
+Title: PHP Contact Form
+Type: source code
+URL: http://reusableforms.com/d/o1/php-contact-form-template
+
+-->
+      
+      <div class="container">
+        <div class="imagebg"></div>
+        <div class="container">
+          <div class="form-container z-depth-5">
+            <div class="row">
+              <form class="col s12" id="reused_form">
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="name" type="text" name="name" required class="validate">
+                    <label for="name">Name</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="email" type="email" name="email" required class="validate">
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <textarea id="message" name="message" class="materialize-textarea validate" ></textarea>
+                    <label for="message">Message</label>
+                  </div>
+                </div>
+                <div>
+                  <button class="waves-effect waves-light btn submitbtn" type="submit">Submit</button>
+                </div>
+              </form>
+              <div id="error_message" style="width:100%; height:100%; display:none; ">
+                <h4> Error </h4>
+                Sorry there was an error sending your form. </div>
+              <div id="success_message" style="width:100%; height:100%; display:none; ">
+                <h4> Success! Your Message was Sent Successfully. </h4>
+              </div>
+            </div>
+          </div>
+          <!--Import jQuery before materialize.js--> 
+          <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script> 
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--end of main-->
+</body>
 </html>

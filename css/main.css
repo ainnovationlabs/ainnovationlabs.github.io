@@ -1,0 +1,217 @@
+@charset "UTF-8";
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #191e24;
+  color: aliceblue;
+  margin: 0;
+  font-weight: lighter;
+  text-indent: 3px;
+  font-family: 'Helvetica', sans-serif;
+}
+p {
+  line-height: 200%;
+  color: #B0C0D1
+}
+header {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 18px;
+}
+.hero {
+  margin-top: 200px;
+  font-size: 18px;
+}
+.navItems ul {
+  list-style-type: none;
+  float: right;
+}
+.navItems li {
+  float: left;
+}
+.navItems li a {
+  display: block;
+  color: aliceblue;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+.logo a {
+  color: aliceblue;
+  text-decoration: none;
+  padding: 30px 0;
+  float: left;
+}
+.hero {
+  clear: both;
+  width: 80%;
+  margin-left: 10%;
+}
+.leftColHero {
+  width: 40%;
+  float: left;
+  padding-right: 3%;
+}
+.leftColHero p {
+  padding-bottom: 1em;
+}
+.heroPic {
+  width: 57%;
+  float: left;
+}
+/*contact btn*/
+.contactBtn {
+  background: #7640f5;
+  padding: 0.8em 1.5em;
+  font-size: 20px;
+  border: none;
+  color: aliceblue;
+  border-radius: 15px;
+}
+.hero h1 {
+  font-size: 42px;
+  font-weight: 500;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+.hero p {
+  line-height: 180%;
+}
+.main {
+  clear: both;
+  width: 80%;
+  margin: auto;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 500;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  width: 55%;
+  margin: auto;
+  padding-top: 20px;
+}
+.aboutUs, .contactSection {
+  padding: 100px 0 60px;
+  text-align: center;
+  margin: auto;
+}
+.aboutUs p, .contactSection p {
+  width: 65%;
+  margin: auto;
+  padding-top: 20px;
+}
+.textCol-4pic {
+  margin: auto;
+  padding: 15px 0;
+  text-align: center;
+}
+.textCol-4pic p {
+  padding: 0 2em;
+}
+.picCol-4pic {
+  width: 100%;
+  margin: auto;
+}
+.picCol-4pic img {
+  width: 24%;
+  padding: 2%;
+}
+.picCol-left {
+  float: left;
+  width: 30%;
+  padding-right: 3em;
+}
+.hori {
+  width: 90%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  opacity: 0.7;
+}
+.textCol-right {
+  float: right;
+  width: 58%;
+  padding-right: 2em;
+  text-align: right;
+  padding-top: 2em;
+}
+.featureWrapper h3 {
+  font-size: 26px;
+  font-weight: 500;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.featureWrapper {
+  width: 100%;
+  clear: both;
+  padding: 3em 0 3em;
+}
+.picCol-right {
+  float: right;
+  width: 30%;
+  padding-right: 3em;
+}
+/*.picCol-right .*/
+.ver1 {
+  width: 40%;
+  opacity: 0.7;
+  padding-right: 5%;
+}
+.ver2 {
+  width: 40%;
+  opacity: 0.7;
+  padding-left: 5%;
+}
+.textCol-left {
+  float: left;
+  width: 58%;
+  padding-bottom: 20px;
+  padding-left: 3em;
+}
+.contactHead h2 {
+  padding-top: 40px;
+}
+@media only screen and (max-width: 900px) {
+  .hero {
+    margin-top: 8em;
+  }
+  .leftColHero {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 4em;
+  }
+  .heroPic {
+    width: 100%;
+  }
+  .aboutUs, .aboutUs h2, .aboutUs p {
+    width: 100%;
+  }
+  .picCol-4pic img {
+    width: 48%;
+  }
+  .contactHead, .contactSection p {
+    width: 100%;
+  }
+  .textCol-left {
+    width: 100%;
+    padding: 2em;
+    text-align: center;
+  }
+  .picCol-right {
+    width: 100%;
+    text-align: center;
+    padding: 2em;
+  }
+  .textCol-right {
+    width: 100%;
+    padding: 2em;
+    text-align: center;
+  }
+  .picCol-left {
+    width: 100%;
+    text-align: center;
+    padding: 2em;
+  }
+}
