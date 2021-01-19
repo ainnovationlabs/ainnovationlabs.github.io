@@ -1,0 +1,38 @@
+An Untimate Customized Edge AI Solution 
+
+We enable AI in a broader array of applications, bringing cutting-edge innovation to more fields than ever before.
+
+
+Go Above and Beyond with AI
+
+We use patented deep learning model compression technique to port these once costly AI algorithms into customized lightweight processes running realtimely on mobile devices with high accuracy.
+
+
+
+On-Device Realtime Human Tracking and Pose Estimation
+
+We create novel AI solutions to renovate remote Human-AI interactions for high-performance on-device real-time face detection and tracking, hand tracking, human pose tracking, behavioral recognition, motion capturing, action recognition and prediction, etc. 
+
+Face(girl_100_256), Hand(guitar_85_256, trim), Body (golf_85_256), Full Body(dance_0_256)
+
+
+Applications in Telemedicine and Rehabilitation
+
+
+We provide health care providers, clinicians, therapists, patients, and behavioral health researchers the most advanced high-accuracy AI-powered digital health solutions for smart diagnosis, therapy, quantitatly training solutions via instant interaction and personalized instructions. 
+
+Sign Language Recognition (sign_85_256),  Rehab (squat_85_256, step_85_256)
+
+
+Applications in Remote Fitness and Sports
+
+We enable rainers and trainees in the sports and fitness community to access professional services and personalized interactions in non-contact manner; mitigate limited availability of in-person services.
+
+Gym (bell_85_256, pushup_85_256), Yoga (yoga_85_256)
+
+
+Applications in Image and Video Processing
+
+AInnovation technologies cover broad deep learning applications in computer vision, such as image restoration, superresolution, segmentation, captioning, object detection, face recognition, re-identification, video understanding, etc.
+
+Superresolution(Yulun), Video segementation or attention (Kunpeng), Face Attribute (Songyao), Autonomous Car (Bin)
