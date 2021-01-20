@@ -196,7 +196,9 @@ h2 {
   float: left;
   width: 48%;
   padding-bottom: 20px;
-  padding-left: 3em;
+  padding-top: 10px;
+  padding-left: 5em;
+  padding-right: 3em;
 }
 .contactHead h2 {
   padding-top: 40px;
@@ -227,7 +229,9 @@ h2 {
   }
   .textCol-left {
     width: 100%;
-    padding: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0em;
     text-align: center;
   }
   .picCol-right {
@@ -283,7 +287,9 @@ only screen and (                min-resolution: 2dppx) {
   }
   .textCol-left {
     width: 100%;
-    padding: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0em;
     text-align: center;
   }
   .picCol-right {
@@ -339,7 +345,9 @@ only screen and (                min-resolution: 2dppx) {
   }
   .textCol-left {
     width: 100%;
-    padding: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0em;
     text-align: center;
   }
   .picCol-right {
