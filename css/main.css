@@ -73,8 +73,18 @@ header {
 }
 /*contact btn*/
 .contactBtn {
-  background: #7640f5;
+  /* background: #7640f5; */
+  background: #f3883f;
   padding: 0.8em 1.5em;
+  font-size: 20px;
+  border: none;
+  color: aliceblue;
+  border-radius: 15px;
+}
+.submitBtn {
+  /* background: #7640f5; */
+  background: #f3883f;
+  padding: 0.8em 2.5em;
   font-size: 20px;
   border: none;
   color: aliceblue;
