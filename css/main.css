@@ -176,7 +176,7 @@ h2 {
 }
 .picCol-right {
   float: right;
-  width: 45%;
+  width: 50%;
   padding-right: 3em;
 }
 /*.picCol-right .*/
@@ -186,7 +186,7 @@ h2 {
   padding-right: 5%;
 }
 .ver2 {
-  width: 45%;
+  width: 46%;
   opacity: 1.0;
   padding-left: 5%;
 }
@@ -200,6 +200,112 @@ h2 {
   padding-top: 40px;
 }
 @media only screen and (max-width: 900px) {
+  .hero {
+    margin-top: 8em;
+  }
+  .leftColHero {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 4em;
+  }
+  .heroPic {
+    width: 100%;
+  }
+  .aboutUs, .aboutUs h2, .aboutUs p {
+    width: 100%;
+  }
+  .picCol-4pic img{
+    width: 48%;
+  }
+  .picCol-2pic img {
+    width: 100%;
+    padding: 2%;
+  }
+  .contactHead, .contactSection p {
+    width: 100%;
+  }
+  .textCol-left {
+    width: 100%;
+    padding: 2em;
+    text-align: center;
+  }
+  .picCol-right {
+    width: 100%;
+    text-align: center;
+    padding: 2em;
+  }
+  .textCol-right {
+    width: 100%;
+    padding: 2em;
+    text-align: center;
+  }
+  .picCol-left {
+    width: 100%;
+    text-align: center;
+    padding: 2em;
+  }
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  .hero {
+    margin-top: 8em;
+  }
+  .leftColHero {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 4em;
+  }
+  .heroPic {
+    width: 100%;
+  }
+  .aboutUs, .aboutUs h2, .aboutUs p {
+    width: 100%;
+  }
+  .picCol-4pic img{
+    width: 48%;
+  }
+  .picCol-2pic img {
+    width: 100%;
+    padding: 2%;
+  }
+  .contactHead, .contactSection p {
+    width: 100%;
+  }
+  .textCol-left {
+    width: 100%;
+    padding: 2em;
+    text-align: center;
+  }
+  .picCol-right {
+    width: 100%;
+    text-align: center;
+    padding: 2em;
+  }
+  .textCol-right {
+    width: 100%;
+    padding: 2em;
+    text-align: center;
+  }
+  .picCol-left {
+    width: 100%;
+    text-align: center;
+    padding: 2em;
+  }
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 3),
+only screen and (   min--moz-device-pixel-ratio: 3),
+only screen and (     -o-min-device-pixel-ratio: 3/1),
+only screen and (        min-device-pixel-ratio: 3),
+only screen and (                min-resolution: 288dpi),
+only screen and (                min-resolution: 2dppx) { 
   .hero {
     margin-top: 8em;
   }
