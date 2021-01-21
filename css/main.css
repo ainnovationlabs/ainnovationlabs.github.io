@@ -137,7 +137,13 @@ h2 {
 }
 .picCol-4pic img {
   width: 24%;
-  padding: 2%;
+  padding: 2%
+}
+
+.picCol-4pic img.horizon{
+  width: 48%;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 .picCol-2pic {
   width: 100%;
@@ -221,6 +227,10 @@ h2 {
   .picCol-4pic img{
     width: 48%;
   }
+  .picCol-4pic img.horizon{
+    width: 96%;
+    padding: 2%;
+  }
   .picCol-2pic img {
     width: 100%;
   }
@@ -279,6 +289,10 @@ only screen and (                min-resolution: 2dppx) {
   .picCol-4pic img{
     width: 48%;
   }
+  .picCol-4pic img.horizon{
+    width: 96%;
+    padding: 2%;
+  }
   .picCol-2pic img {
     width: 100%;
   }
@@ -336,6 +350,10 @@ only screen and (                min-resolution: 2dppx) {
   }
   .picCol-4pic img{
     width: 48%;
+  }
+  .picCol-4pic img.horizon{
+    width: 96%;
+    padding: 2%;
   }
   .picCol-2pic img {
     width: 100%;
