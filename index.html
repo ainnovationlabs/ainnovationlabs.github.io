@@ -20,7 +20,8 @@
 <link rel="stylesheet" href="css/materialize.css">
 <link rel="stylesheet" href="form-plugin/form.css" >
 <script src="form-plugin/form.js"></script> 
-
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<!-- <script src="https://www.google.com/recaptcha/api.js"></script> -->
 <!-- main stylesheet -->
 <link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
@@ -148,6 +149,9 @@ URL: http://reusableforms.com/d/o1/php-contact-form-template
                 </div>
                 <div>
                   <!-- <button class="waves-effect waves-light btn submitbtn" type="submit">Submit</button> -->
+                  <center>
+                    <div class="g-recaptcha" data-sitekey="6LefdTYaAAAAAF6V7cj8QMbkBkrwWMi8hPYDFMkT"></div>
+                  </center>
                   <button class="submitBtn" type="submit">Submit</button>
                 </div>
               </form>
