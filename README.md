@@ -1,2 +1,2 @@
 # ainnovationlabs.github.io
-Website deployed on https://www.ainnovationlab.com/
+Website deployed on https://www.ainnovationlabs.com/
